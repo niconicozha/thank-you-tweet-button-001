@@ -1,4 +1,9 @@
 {
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "conventionalcommits"
+    }
+  },
   "git": {
     "commitMessage": "chore: release v${version}"
   }
