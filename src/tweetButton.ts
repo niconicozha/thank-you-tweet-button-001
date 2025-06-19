@@ -34,7 +34,7 @@ export function tweetButton(
   const tweetButtonContainer = document.createElement("section");
   const anchorElement = document.createElement("a");
   const anchorElementContent = document.createTextNode(
-    "Post a thank you tweet"
+    "Post a thank you message"
   );
   const tweetUrl = `https://twitter.com/intent/tweet?text=Thank+you,+
   %40oluwatobiss.+Your+book+helped+me+create,+test,+and+publish+${
