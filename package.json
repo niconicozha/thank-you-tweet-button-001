@@ -12,14 +12,19 @@
     "email": "niconicozha@gmail.com"
   },
   "scripts": {
-    "test": "jest --config jest.config.ts"
+    "test": "jest --config jest.config.ts",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.27.2",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/types": "^19.8.1",
     "@jest/globals": "^30.0.1",
+    "husky": "^9.1.7",
     "jest": "^30.0.1",
     "jest-environment-jsdom": "^30.0.1",
     "ts-jest": "^29.4.0",
