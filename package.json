@@ -2,7 +2,8 @@
   "name": "thank-you-tweet-button-001",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/cjs/tweetButton.js",
+  "module": "dist/esm/tweetButton.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/niconicozha/thank-you-tweet-button-001.git"
