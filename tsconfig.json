@@ -1,4 +1,6 @@
 {
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.ts"],
   "compilerOptions": {
     "module": "esnext",
     "moduleResolution": "node",
