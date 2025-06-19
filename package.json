@@ -1,6 +1,6 @@
 {
   "name": "@niconicozha/thank-you-tweet-button-001",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss.",
   "main": "dist/cjs/tweetButton.js",
   "module": "dist/esm/tweetButton.js",
