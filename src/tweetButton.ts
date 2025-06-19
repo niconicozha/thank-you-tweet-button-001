@@ -11,7 +11,7 @@ function showError() {
   const errorContainer = document.createElement("div");
   const errorParagraph = document.createElement("p");
   const errorParagraphText = document.createTextNode(
-    "❌ Error: 'rating' parameter is missing in 'tweetButtonParameters'."
+    "❌ Error: One or more required parameters are missing in 'tweetButtonParameters'."
   );
   errorContainer.setAttribute(
     "style",
@@ -34,7 +34,7 @@ export function tweetButton(
   const tweetButtonContainer = document.createElement("section");
   const anchorElement = document.createElement("a");
   const anchorElementContent = document.createTextNode(
-    "Send a thank you tweet"
+    "Post a thank you tweet"
   );
   const tweetUrl = `https://twitter.com/intent/tweet?text=Thank+you,+
   %40oluwatobiss.+Your+book+helped+me+create,+test,+and+publish+${
