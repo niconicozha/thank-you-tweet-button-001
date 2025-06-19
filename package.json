@@ -29,6 +29,9 @@
   ],
   "author": "niconicozha <niconicozha@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "homepage": "https://github.com/niconicozha/thank-you-tweet-button-001#readme",
   "devDependencies": {
     "@babel/core": "^7.27.4",
