@@ -19,7 +19,7 @@
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "test": "jest --config jest.config.ts",
     "prepare": "husky",
-    "release": "release-it"
+    "release": "dotenv release-it --"
   },
   "keywords": [
     "tweet",
@@ -42,6 +42,7 @@
     "@commitlint/types": "^19.8.1",
     "@jest/globals": "^30.0.1",
     "@release-it/conventional-changelog": "^10.0.1",
+    "dotenv-cli": "^8.0.0",
     "husky": "^9.1.7",
     "jest": "^30.0.1",
     "jest-environment-jsdom": "^30.0.1",
