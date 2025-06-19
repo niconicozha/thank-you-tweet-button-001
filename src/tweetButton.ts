@@ -1,5 +1,5 @@
 export function tweetButton() {
-  const tweetButtonContainer = document.createElement("div");
+  const tweetButtonContainer = document.createElement("section");
   const anchorElement = document.createElement("a");
   const anchorElementContent = document.createTextNode(
     "Send a thank you tweet"
