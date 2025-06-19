@@ -26,7 +26,11 @@ function showError() {
   return errorContainer;
 }
 
-export function tweetButton(rating: number, quantity?: number) {
+export function tweetButton(
+  rating: number,
+  bestNPMPackage: string,
+  quantity?: number
+) {
   const tweetButtonContainer = document.createElement("section");
   const anchorElement = document.createElement("a");
   const anchorElementContent = document.createTextNode(
@@ -37,9 +41,8 @@ export function tweetButton(rating: number, quantity?: number) {
     quantity && quantity > 1 ? quantity : "an"
   }+NPM+${
     quantity && quantity > 1 ? "packages" : "package"
-  }.%0A%0ABook's+Rating:+${rating}-star+rating!+${generateStarIcons(
-    rating
-  )}%0A%0Ahttps%3A%2F%2Famzn.to/4lifL3n`;
+  }.%0A%0AMy+Favorite:+${bestNPMPackage}%0A%0ABook's+Rating:+${rating}-
+  star+rating!+${generateStarIcons(rating)}%0A%0Ahttps%3A%2F%2Famzn.to/4lifL3n`;
 
   tweetButtonContainer.setAttribute("id", "tweet-btn-container");
   anchorElement.setAttribute("class", "tweet-button");
@@ -49,5 +52,7 @@ export function tweetButton(rating: number, quantity?: number) {
   anchorElement.appendChild(anchorElementContent);
   tweetButtonContainer.appendChild(anchorElement);
 
-  return typeof rating === "number" ? tweetButtonContainer : showError();
+  return typeof rating === "number" && bestNPMPackage
+    ? tweetButtonContainer
+    : showError();
 }
