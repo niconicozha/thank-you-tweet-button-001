@@ -22,28 +22,28 @@ This section shows how to install the Thank You Tweet Button 001 package.
 
 ### Using npm
 
-\`\`\`
+```
 npm install thank-you-tweet-button-001
-\`\`\`
+```
 
 ### Using yarn
 
-\`\`\`
+```
 yarn add thank-you-tweet-button-001
-\`\`\`
+```
 
 ### Using pnpm
 
-\`\`\`
+```
 pnpm add thank-you-tweet-button-001
-\`\`\`
+```
 
 ## Usage
 
-\`\`\`ts
+```ts
 import { tweetButton } from "thank-you-tweet-button-001";
 document.YourDOMNode.appendChild(tweetButton());
-\`\`\`
+```
 
 ## Dev Dependencies
 
