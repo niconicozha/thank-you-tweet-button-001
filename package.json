@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niconicozha/thank-you-tweet-button-001.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niconicozha/thank-you-tweet-button-001/issues",
+    "email": "niconicozha@gmail.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
