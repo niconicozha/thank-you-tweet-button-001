@@ -18,7 +18,8 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "test": "jest --config jest.config.ts",
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "release-it"
   },
   "keywords": [
     "tweet",
@@ -43,6 +44,7 @@
     "husky": "^9.1.7",
     "jest": "^30.0.1",
     "jest-environment-jsdom": "^30.0.1",
+    "release-it": "^19.0.3",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
