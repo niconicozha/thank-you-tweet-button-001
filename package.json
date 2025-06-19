@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/cjs/tweetButton.js",
   "module": "dist/esm/tweetButton.js",
+  "types": "dist/esm/tweetButton.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/niconicozha/thank-you-tweet-button-001.git"
